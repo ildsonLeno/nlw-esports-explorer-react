@@ -1,0 +1,158 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Inter', sans-serif;
+}
+
+:root {
+  --text-color-1: #FFFFFF;
+  --text-color-2: #A1A1AA;
+  --background: #121214;
+  --cards-color: #4b2828;
+  --border: #443E54;
+}
+
+body {
+  background-image: url(./assets/close-up-hand-muscular-man-with-bandage.jpg);
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: var(--background);
+}
+
+header {
+  padding-top: 2%
+}
+
+header span {
+  width: 120px;
+  margin: auto;
+  border-radius: 50%;
+  border: 4px solid #9572FC;
+  border: double 4px transparent;
+  background-image: linear-gradient(white, white), linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+
+  display: flex;
+  transition: transform .3s;
+  animation: fromTop .5s .2s backwards;
+}
+
+header span:hover {
+  transform: scale(1.1);
+}
+
+header span img {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 580px;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  gap: 24px;
+}
+
+h2 {
+  line-height: 160%;
+  color: var(--text-color-1);
+}
+
+p {
+  line-height: 160%;
+  color: var(--text-color-2);
+}
+
+section {
+  background-image: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  padding-top: 5px;
+  border-radius: 14px;
+}
+
+main section {
+  animation: fromBottom .6s backwards;
+}
+
+main section:nth-child(1) {
+  animation-delay: 0;
+}
+
+main section:nth-child(2) {
+  animation-delay: .3s;
+}
+
+main section:nth-child(3) {
+  animation-delay: .6s;
+}
+
+.lutadores-container,
+.channels-container,
+.socials-container {
+  border-radius: 8px;
+  background-color: var(--cards-color);
+  padding: 24px 32px 32px 32px;
+}
+
+section ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+section ul li {
+  transition: transform .3s;
+}
+
+section ul li:hover {
+  transform: scale(1.1);
+}
+
+.lutadores-list img {
+  width: 90px;
+  border-radius: 8px;
+}
+
+.channel-list img {
+  border-radius: 50%;
+  width: 70px;
+  border: 1px solid var(--border);
+}
+
+/* ANIMATION */
+
+@keyframes fromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
