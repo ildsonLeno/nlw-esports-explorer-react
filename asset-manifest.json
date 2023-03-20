@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/nlw-esports-explorer-react/static/css/main.cce1a76c.css",
+    "main.js": "/nlw-esports-explorer-react/static/js/main.22806460.js",
+    "static/media/close-up-hand-muscular-man-with-bandage.jpg": "/nlw-esports-explorer-react/static/media/close-up-hand-muscular-man-with-bandage.caae839d73ce20c408ab.jpg",
+    "index.html": "/nlw-esports-explorer-react/index.html",
+    "static/media/YoutubeLogo.svg": "/nlw-esports-explorer-react/static/media/YoutubeLogo.5729e8d11758fef1c0b4d08716ffafb7.svg",
+    "static/media/TwitchLogo.svg": "/nlw-esports-explorer-react/static/media/TwitchLogo.30161126dc42bc30b695794d44216e75.svg",
+    "static/media/InstagramLogo.svg": "/nlw-esports-explorer-react/static/media/InstagramLogo.15f6aff6f8e8070776915cf2d65ffebe.svg",
+    "static/media/TwitterLogo.svg": "/nlw-esports-explorer-react/static/media/TwitterLogo.838eefd9750e8d96c1d7cd9a405cfc9a.svg",
+    "main.cce1a76c.css.map": "/nlw-esports-explorer-react/static/css/main.cce1a76c.css.map",
+    "main.22806460.js.map": "/nlw-esports-explorer-react/static/js/main.22806460.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cce1a76c.css",
+    "static/js/main.22806460.js"
+  ]
+}
